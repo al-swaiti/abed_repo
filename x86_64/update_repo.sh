@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm nemesis_repo*
+rm abed_repo*
 
 echo "repo-add"
-repo-add -n -R nemesis_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R abed_repo.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 echo "####################################"
